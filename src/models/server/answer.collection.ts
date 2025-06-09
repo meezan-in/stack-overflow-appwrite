@@ -23,5 +23,7 @@ export default async function createAnswerCollection() {
         databases.createStringAttribute(db, answerCollection, "authorId", 50, true),
     ])
 
-    console.log("Answer collection attributes created"); //me new
+    console.log("Answer collection attributes created");
+    console.log("Answer collection attributes created new"); 
+    //me new
 }
